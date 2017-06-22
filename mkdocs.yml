@@ -1,0 +1,9 @@
+site_name: LD4PE Linked Data Competency Index
+pages:
+    - Overview: 'index.md'
+    - First: 'first.md'
+theme: 'readthedocs'
+repo_url: https://github.com/dcmi/ldcompindex
+repo_name: 'Github'
+edit_url: 'edit/master/docs/'
+site_description: 'For crowdsourcing the maintenance and evolution of LD4PE Linked Data Competency Index'
