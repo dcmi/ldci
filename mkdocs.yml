@@ -1,7 +1,7 @@
 site_name: LD4PE Linked Data Competency Index
 pages:
     - Overview: 'index.md'
-    - First: 'first.md'
+    - CI: '../source/D2695955.md'
 theme: 'readthedocs'
 repo_url: https://github.com/dcmi/ldcompindex
 repo_name: 'Github'
