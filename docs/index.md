@@ -1,6 +1,4 @@
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+# LD4PE Linked Data Competency Index
 
 ## Commands
 
