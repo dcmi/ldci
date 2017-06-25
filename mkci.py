@@ -40,33 +40,38 @@ Version: %s <br>
 Raw file: https://github.com... <br>
 View at: https://ld4pe.github.com... <br>
 
---------
-## [A] __Topic Cluster__
-* [B] __Topic__
-    * [C] __Competency__: Tweet-length assertion of knowledge, skill, or habit of mind.
-        * [D] __Benchmark__: Action demonstrating accomplishment in related competencies.
+| Code| Type          | Definition                                                    |
+| --- | ------------- | --------------------------------------------------------------|
+| A   | Topic Cluster |                                                               |
+| B   | Topic         |                                                               |
+| C   | Competency    | Tweet-length assertion of knowledge, skill, or habit of mind. |
+| D   | Benchmark     | Action demonstrating accomplishment in related competencies.  |
+
 """ % today()
     just_lines.append(prefix)
     for line in selected_fields:
         line[1] = round_bracket(line[1])
         if line[0] == 'Topic Cluster':
-            line[0] = '\n## [[A]]'
+            line[0] = '\n## [A:]'
         if line[0] == 'Topic':
-            line[0] = '* [[B]]'
+            line[0] = '* [B:]'
         if line[0] == 'Competency':
-            line[0] = '    * [[C]]'
+            line[0] = '    * [C:]'
         if line[0] == 'Benchmark':
-            line[0] = '        * [[D]]'
-        line = ' '.join(line).replace('] ', ']')
+            line[0] = '        * [D:]'
+        line[0] = ''.join([line[0], line[1]])
+        del line[1]
+        line = ' '.join(line)
         just_lines.append(line)
     return just_lines
 
-if __name__ == "__main__":
+def main():
     ordict = json2ordict(COMPINDEX_JSON)
     excerpt = ordict2selectn(ordict)
-    print(excerpt[0:3])
     lines = mkmarkdown(excerpt)
-    print(lines[13:15])
     with open('D2695955.md', 'w') as f:
         print("Writing", f)
         f.writelines("%s\n" % item for item in lines)
+
+if __name__ == "__main__":
+    main()
