@@ -5,6 +5,7 @@ pages:
     - Structure: 'structure.md'
     - Style: 'style.md'
     - Process: 'process.md'
+    - Test: 'test.md'
 theme: 'readthedocs'
 repo_url: https://github.com/dcmi/ldcompindex
 repo_name: 'Github'
