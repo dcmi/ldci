@@ -64,9 +64,7 @@ View at: https://ld4pe.github.com... <br>
 if __name__ == "__main__":
     ordict = json2ordict(COMPINDEX_JSON)
     excerpt = ordict2selectn(ordict)
-    print(excerpt[0:3])
     lines = mkmarkdown(excerpt)
-    print(lines[13:15])
     with open('D2695955.md', 'w') as f:
         print("Writing", f)
         f.writelines("%s\n" % item for item in lines)
