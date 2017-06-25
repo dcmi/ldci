@@ -37,8 +37,7 @@ def mkmarkdown(selected_fields):
     prefix = """# LD4PE Competency Index
 
 Version: %s <br>
-Raw file: https://github.com... <br>
-View at: https://ld4pe.github.com... <br>
+View at: [https://dcmi.github.io/ldci/D2695955/](https://dcmi.github.io/ldci/D2695955/]) <br>
 
 | Code| Type          | Definition                                                    |
 | --- | ------------- | --------------------------------------------------------------|
@@ -46,6 +45,8 @@ View at: https://ld4pe.github.com... <br>
 | B   | Topic         |                                                               |
 | C   | Competency    | Tweet-length assertion of knowledge, skill, or habit of mind. |
 | D   | Benchmark     | Action demonstrating accomplishment in related competencies.  |
+
+Note: Hover over a code to see its URI.  Click on a code to visit its full definition on the [Achievement Standards Network](http://asn.desire2learn.com/resources/D2695955) website.
 
 """ % today()
     just_lines.append(prefix)
