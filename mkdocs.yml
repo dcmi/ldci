@@ -1,9 +1,12 @@
-site_name: LD4PE Linked Data Competency Index
+site_name: Linked Data Competency Index
 pages:
     - Overview: 'index.md'
-    - CI: 'D2695955.md'
+    - Competency Index: 'D2695955.md'
+    - Structure: 'structure.md'
+    - Style: 'style.md'
+    - Process: 'process.md'
 theme: 'readthedocs'
-repo_uri: https://github.com/dcmi/ldcompindex
+repo_url: https://github.com/dcmi/ldcompindex
 repo_name: 'Github'
-edit_url: 'edit/master/docs/'
-site_description: 'For crowdsourcing the maintenance and evolution of LD4PE Linked Data Competency Index'
+edit_uri: 'edit/master/docs/'
+site_description: 'For crowdsourcing the maintenance and evolution of the LD4PE Linked Data Competency Index'
