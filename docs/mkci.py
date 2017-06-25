@@ -52,11 +52,11 @@ View at: https://ld4pe.github.com... <br>
         if line[0] == 'Topic Cluster':
             line[0] = '---\n## [[A]]'
         if line[0] == 'Topic':
-            line[0] = '#### [[B]]'
+            line[0] = '* [[B]]'
         if line[0] == 'Competency':
-            line[0] = '* [[C]]'
+            line[0] = '    * [[C]]'
         if line[0] == 'Benchmark':
-            line[0] = '  * [[D]]'
+            line[0] = '        * [[D]]'
         line = ' '.join(line).replace('] ', ']')
         just_lines.append(line)
     return just_lines
