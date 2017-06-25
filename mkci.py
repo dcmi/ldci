@@ -41,22 +41,22 @@ Raw file: https://github.com... <br>
 View at: https://ld4pe.github.com... <br>
 
 --------
-## [A] Topic Cluster
-### [B] Topic
-* [C] Competency: Tweet-length assertion of knowledge, skill, or habit of mind.
-  * [D] Benchmark: Action demonstrating accomplishment in related competencies.
+## [A] __Topic Cluster__
+* [B] __Topic__
+    * [C] __Competency__: Tweet-length assertion of knowledge, skill, or habit of mind.
+        * [D] __Benchmark__: Action demonstrating accomplishment in related competencies.
 """ % today()
     just_lines.append(prefix)
     for line in selected_fields:
         line[1] = round_bracket(line[1])
         if line[0] == 'Topic Cluster':
-            line[0] = '---\n## [[A]]'
+            line[0] = '\n## [[A]]'
         if line[0] == 'Topic':
-            line[0] = '#### [[B]]'
+            line[0] = '* [[B]]'
         if line[0] == 'Competency':
-            line[0] = '* [[C]]'
+            line[0] = '    * [[C]]'
         if line[0] == 'Benchmark':
-            line[0] = '  * [[D]]'
+            line[0] = '        * [[D]]'
         line = ' '.join(line).replace('] ', ']')
         just_lines.append(line)
     return just_lines
