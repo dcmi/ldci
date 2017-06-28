@@ -14,7 +14,9 @@ __Competencies__.  A competency is a brief phrase characterizing knowledge (fact
 __Benchmarks__.  A benchmark is a brief phrase describing an action that can demonstrate accomplishment in a given competency.  If competencies are about learning, benchmarks are about doing.  Benchmarks may be used for devising homework assignments, exam questions, or self-testing checklists.  Under the competency _Understands the basic syntax of a SPARQL query_, for example, one finds three benchmarks:
 
 > _Uses angle brackets for delimiting URIs._
+
 > _Uses question marks for indicating variables._
+
 > _Uses PREFIX for base URIs._
 
 By design, the LDCI:
