@@ -42,3 +42,39 @@ Data technology is bound to evolve and change over the coming years, this
 Competency Index can be viewed as a living document.
 
 
+## "Competency Index for Linked Data": style and editorial guidelines
+
+2016-12-24: @TODO: constitution, members, process (members, meetings, decision 
+methodology).  Stylistic consistency.
+
+1. Describe Editorial Board process: constitution, members, process (members, meetings, decision method)
+1. Pick one pull request, link to its diff
+1. Write to CIEB: status of pull requests. Proposal Dec telecon. Still using "manual" update. Propose style cleanup.
+
+Tom Baker, November 2016
+
+The Competency Index for Linked Data (CI) is a set of topically arranged
+assertions of the knowledge, skills, and habits of mind required for
+professional practice in the area of Linked Data.  The target audience for the
+CI consists of independent learners who want to learn Linked Data methods and
+technology, and professors or trainers who want to design and teach courses.
+
+The CI exemplifies a broader class of documents, or frameworks, for describing
+curriculum standards and learning objectives or outcomes.  There is no one
+standard way to formulate a competency framework; the range of subjects to be
+learned and the requirements for learning are too diverse to be completely
+normalized.  Competency indexes designed to support certification, for example,
+may need to be more detailed than this index.
+
+To create this index, the Competency Index Editorial Board invented and tested
+its own stylistic principles.  The Board strove for stylistic coherence,
+consistent granularity, manageable length, and general readability.  The goal
+was to formulate a Competency Index that could be printed out by interested
+learners and profitably be read from start to finish, with language evocative
+enough to convey the general drift of the subject matter even to newcomers.
+
+This document describes those stylistic principles in the form of guidelines
+for future editors who may want to update or expand the index.  Just as Linked
+Data technology is bound to evolve and change over the coming years, this
+Competency Index can be viewed as a living document.
+
