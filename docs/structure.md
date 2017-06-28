@@ -1,6 +1,8 @@
 ### Structure of the Competency Index
 
-The Competency Index is structured into _topics_ (and higher-level _topic clusters_), _competencies_, and _benchmarks_:
+This index exemplifies a broader class of documents for describing curriculum standards and learning objectives or outcomes.  There is no one standard way to formulate a competency index (or competency framework, as they are sometimes called) because the range of subjects to be learned, and the requirements for learning, are too diverse to be completely normalized.  A competency index designed to support certification, for example, may need to be more detailed than this index.
+
+The Linked Data Competency Index is structured into _topics_ (and higher-level _topic clusters_), _competencies_, and _benchmarks_:
 
 __Topics__.  A topic is a theme under which a set of competencies are grouped, such as _Designing RDF-based vocabularies_ and _Maintaining RDF vocabularies_.  Topics are grouped under higher-level topic clusters, such as _RDF vocabularies and application profiles_.  
 

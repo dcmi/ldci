@@ -5,8 +5,9 @@ pages:
     - Structure of the Index: 'structure.md'
     - Style of the Index: 'style.md'
     - How to Contribute: 'process.md'
+    - Editorial Board: 'board.md'
 theme: 'readthedocs'
-repo_url: https://github.com/dcmi/ldcompindex
+repo_url: https://github.com/dcmi/ldci
 repo_name: 'Github'
 edit_uri: 'edit/master/docs/'
 site_description: 'For crowdsourcing the maintenance and evolution of the LD4PE Linked Data Competency Index'
