@@ -120,3 +120,4 @@ make minor changes just after you say that you are done!
 Look out for the next post in this series – Working Within the Vocabulary – in
 which I’ll cover working in the different file types that make up Schema.org
 and its extensions.
+
