@@ -3,7 +3,7 @@
         {
             "location": "/",
             "text": "About the Linked Data Competency Index (LDCI)\n\n\nThe Linked Data Competency Index (LDCI) is a set of topically arranged\nassertions of the knowledge, skills, and habits of mind required for\nprofessional practice in the area of Linked Data.  The LDCI provides an\noverview, or map, of the Linked Data field both for independent learners who\nwant to learn Linked Data methods and technology, and for professors or\ntrainers who want to design and teach courses on the subject.  The assertions\nenumerated in the LDCI are identified with unique, Web-based identifiers (URIs)\nthat can be used to tag corresponding resources, from books or Web-based\ntutorials to YouTube videos, for indexing and retrieval.\n\n\nThe LDCI exemplifies a broader class of documents for describing curriculum\nstandards and learning objectives or outcomes.  There is currently no one\nstandard way to formulate a competency index (or competency framework, as they\nare sometimes called).  The range of subjects to be learned and the\nrequirements for learning are too diverse to be completely normalized.  A\ncompetency index designed to support certification, for example, may need to be\nmore detailed than the LDCI.\n\n\nThe LDCI is a product of two projects: the \nLearning Linked Data\nProject\n, twelve-month planning activity funded in\n2011 and 2012 by the \nInstitute of Museum and Library Services\n(IMLS)\n to explore the creation of a software platform\nfor learning to interpret and create Linked Data, and its follow-up project,\n\nLD4PE\n, or Linked Data for Professional\nEducation, funded by IMLS from 2014 to 2017.  The products of the LD4PE \nProject have been inherited by the Dublin Core Metadata Initiative.\n\n\nTo create this LDCI, the Competency Index Editorial Board invented and tested\nits own stylistic principles.  The Board strove for stylistic coherence,\nconsistent granularity, manageable length, and general readability.  The goal\nwas to formulate a Competency Index that could be printed out by interested\nlearners and profitably be read from start to finish, with language evocative\nenough to convey the general drift of the subject matter even to newcomers.\n\n\nThis document describes those stylistic principles in the form of guidelines\nfor future editors who may want to update or expand the index.  Just as Linked\nData technology is bound to evolve and change over the coming years, this\nCompetency Index can be viewed as a living document.",
-            "title": "Overview"
+            "title": "About"
         },
         {
             "location": "/#about-the-linked-data-competency-index-ldci",
@@ -94,16 +94,6 @@
             "location": "/process/",
             "text": "methodology).  Stylistic consistency.\n\n\n\n\nDescribe Editorial Board process: constitution, members, process (members, meetings, decision method)\n\n\nPick one pull request, link to its diff\n\n\nWrite to CIEB: status of pull requests. Proposal Dec telecon. Still using \"manual\" update. Propose style cleanup.",
             "title": "Process"
-        },
-        {
-            "location": "/test/",
-            "text": "[A]\n Interacting with RDF data\n\n\n\n\n[B]\n Finding RDF data\n\n\n[C]\n Knows relevant resources for discovering existing Linked Data datasets.\n\n\n[C]\n Retrieves and accesses RDF data from the \"open Web\".\n\n\n[C]\n Monitors and updates lists which report the status of SPARQL endpoints.\n\n\n[C]\n Uses available vocabularies for dataset description to support their discovery.\n\n\n[C]\n Registers datasets with relevant services for discovery.\n\n\n\n\n\n\n[B]\n Processing RDF data using programming languages.\n\n\n[C]\n Understands how components of the RDF data model (datasets, graphs, statements, and various types of node) are expressed in the RDF library of a given programming language by constructs such as object-oriented classes.\n\n\n[D]\n Uses an RDF programming library to serialize RDF data in available syntaxes.",
-            "title": "Test"
-        },
-        {
-            "location": "/test/#a-interacting-with-rdf-data",
-            "text": "[B]  Finding RDF data  [C]  Knows relevant resources for discovering existing Linked Data datasets.  [C]  Retrieves and accesses RDF data from the \"open Web\".  [C]  Monitors and updates lists which report the status of SPARQL endpoints.  [C]  Uses available vocabularies for dataset description to support their discovery.  [C]  Registers datasets with relevant services for discovery.    [B]  Processing RDF data using programming languages.  [C]  Understands how components of the RDF data model (datasets, graphs, statements, and various types of node) are expressed in the RDF library of a given programming language by constructs such as object-oriented classes.  [D]  Uses an RDF programming library to serialize RDF data in available syntaxes.",
-            "title": "[A] Interacting with RDF data"
         }
     ]
 }
