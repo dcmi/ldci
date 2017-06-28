@@ -1,7 +1,7 @@
 site_name: Linked Data Competency Index
 pages:
-    - Overview: 'index.md'
-    - The Competency Index: 'D2695955.md'
+    - About: 'index.md'
+    - The Index: 'D2695955.md'
     - Structure of the Index: 'structure.md'
     - Style of the Index: 'style.md'
     - How to Contribute: 'process.md'

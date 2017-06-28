@@ -36,7 +36,6 @@ Editorial Board advances its work in the coming months.  The CI development
 work is being partially funded through an IMLS National Leadership Grant for
 Libraries.
 
-
 Links
 -- http://asn.jesandco.org/resources/D2527589 - Competency Index for the Library Field
 -- https://www.imls.gov/grants/awarded/lg-05-14-0102-14 - IMLS National Leadership Grant for Libraries
@@ -87,3 +86,38 @@ http://explore.dublincore.net/about/ld4pe-project-history/final-report/ - Learni
 http://explore.dublincore.net/about/ld4pe-project-history/learning/ - LLD Inventory of Learning Topics
 http://explore.dublincore.net/about/ld4pe-project-process/ - Timetable of project - (Dec 2014-Nov 2016)
 http://explore.dublincore.net/related/oclc-dataset/ - OCLC dataset
+
+
+----------------------------------------------------------------------
+Richard Wallis
+
+Requesting Changes
+
+The mechanism for requesting a change of any type to Schema.org is to raise a
+Github Pull Request.  Each new release of Schema.org is assembled by the
+organising team reviewing and hopefully accepting each Pull Request. You can
+see the current list of requests awaiting acceptance in Github.  To stop the
+comments associated with individual requests getting out of hand, and to make
+it easier to track progress, the preferred way of working is to raise a Pull
+Request as a final step in completing work on an Issue.
+
+Raising an Issue first enables discussion to take place around proposals as
+they take shape.  It is not uncommon for a final request to differ greatly from
+an original idea after interaction in the comment stream.
+
+So I suggest that you raise an Issue in the Schema.org repository for what you
+are attempting to solve.  Try to give it a good explanatory Title, and explain
+what you intend in the comment.   This is where the code in your repository and
+the appspot.com working version can be very helpful in explaining and exploring
+the issue.
+
+Pull rquest When ready to request, take yourself to your repository’s home page
+to create a New Pull request.  Providing you do not create a new branch in the
+code, any new commits you make to your repository will become part of that Pull
+Request.  A very handy feature in the real world where inevitably you want to
+make minor changes just after you say that you are done!
+
+Look out for the next post in this series – Working Within the Vocabulary – in
+which I’ll cover working in the different file types that make up Schema.org
+and its extensions.
+
