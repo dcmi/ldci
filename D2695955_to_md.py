@@ -37,7 +37,7 @@ def mkmarkdown(selected_fields):
     prefix = """# LD4PE Competency Index
 
 Version: %s <br>
-View at: [https://dcmi.github.io/ldci/D2695955/](https://dcmi.github.io/ldci/D2695955/]) <br>
+View at: [https://dcmi.github.io/ldci/D2695955/](https://dcmi.github.io/ldci/D2695955/) <br>
 
 | Code| Type          | Definition                                                    |
 | --- | ------------- | --------------------------------------------------------------|
