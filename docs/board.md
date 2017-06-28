@@ -1,9 +1,13 @@
 ### Competency Index Editorial Board
 
 [Tom Baker](https://github.com/tombaker), chair <br>
-[Kai Eckert](https://github.com/kaiec) <br>
-[Stuart Sutton](https://github.com/stuartasutton) <br>
-[Magnus Pfeffer](https://github.com/mapfde) <br>
 [Debbie Maron](https://github.com/debbiem) <br>
+[Kai Eckert](https://github.com/kaiec) <br>
+[Magnus Pfeffer](https://github.com/mapfde) <br>
+[Stuart Sutton](https://github.com/stuartasutton) <br>
 
-If you would like to join the Editorial Board, please write to tom@tombaker.org.
+If you would like to join the Editorial Board, please write to [tom@tombaker.org](mailto:tom@tombaker.org).
+
+Links
+* [Issues](https://github.com/dcmi/ldci/issues)
+* [Pull requests](https://github.com/dcmi/ldci/pulls)

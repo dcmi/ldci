@@ -1,6 +1,0 @@
-echo pandoc -f markdown_github -t html -o D2695955.html D2695955.md
-pandoc -f markdown_github -t html -o D2695955.html D2695955.md
-echo wkhtmltopdf D2695955.html D2695955.pdf
-wkhtmltopdf D2695955.html D2695955.pdf
-echo rm -v D2695955.html
-rm -v D2695955.html
