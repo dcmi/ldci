@@ -6,17 +6,17 @@ This is the back-end repository used to generate a [documentation website](https
 
 Whenever a batch of changes is approved according to [processes described on the LDCI website](https://dcmi.github.io/ldci/process/), someone with write access to this repo needs to edit the [master JSON file](https://github.com/dcmi/ldci/blob/master/docs/D2695955.json).  This is done as follows:
 
-* Go to http://rdf.tools => _ASN_ => _Configure_ => _Load ASN File_ => _Choose existing file_ => [click on D2695955.json].  The editor displays green if the JSON file has parsed correctly.
+* Go to http://rdf.tools => _ASN_ => _Configure_ => _Load ASN File_ => _Choose existing file_ => click on [D2695955.json](https://github.com/dcmi/ldci/blob/master/docs/D2695955.json).  
+    * The editor displays green if the JSON file has parsed correctly.
     * _Describe_ tab: metadata about the index.
-    * _Create_ tab: make edits here
-    * Under _Create_ tab, make edits:
+    * _Create_ tab: make edits here:
         * Clicking on a node (on the right) will populate the corresponding values (on the left).
         * The order of items can be changed by moving things around, on the right, using the mouse.
         * A competency can be added by clicking on a topic and selecting _Add @@@_.
         * Save work with _Submit_.
     * When the edits are done, press _Submit_ => _Download_ => _Download RDF_ => _Save_
         * RDF comes back out with the same filename.
-        * Use this file to replace the master JSON file.
+        * Use this file to replace the [master JSON file](https://github.com/dcmi/ldci/blob/master/docs/D2695955.json).
         * Commit and push.
 
 #### Submit the master JSON file to ASN and WordPress
