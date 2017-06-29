@@ -25,11 +25,14 @@ Whenever a batch of changes is approved according to [processes described on the
 
 #### Generate a Markdown file from the master JSON file
 
-Run [D2695955_to_md.py](https://github.com/dcmi/ldci/blob/master/docs/D2695955_to_md.py) using Python 3 as shown in [Makefile](https://github.com/dcmi/ldci/blob/master/docs/Makefile).  This will over-write the existing file, [D2695955.md](https://github.com/dcmi/ldci/blob/master/docs/D2695955.md).  Commit and push.
+* Run [D2695955_to_md.py](https://github.com/dcmi/ldci/blob/master/docs/D2695955_to_md.py) using Python 3 as shown in [Makefile](https://github.com/dcmi/ldci/blob/master/docs/Makefile).  This will over-write the existing file, [D2695955.md](https://github.com/dcmi/ldci/blob/master/docs/D2695955.md).  
+* Commit and push.
 
 #### Build the website using MkDocs
 
-Install [mkdocs](http://mkdocs.org) on your machine (see [installation instructions](http://www.mkdocs.org/#installation).
-
-Run the command `mkdocs gh-deploy` (or use [deploy.sh](https://github.com/dcmi/ldci/blob/master/deploy.sh)).  This command creates (or refreshes) the website at [https://dcmi.github.io/ldci/](https://dcmi.github.io/ldci/).  The command must be run from the root directory of this repo.  Behind the scenes, MkDocs will build your HTML docs from the Markdown sources, use the `ghp-import` tool to commit them to the `gh-pages` branch, and push the `gh-pages` branch to GitHub.
+* Install [mkdocs](http://mkdocs.org) on your machine (see [installation instructions](http://www.mkdocs.org/#installation).
+* Run the command `mkdocs gh-deploy` (or use [deploy.sh](https://github.com/dcmi/ldci/blob/master/deploy.sh)).  
+    * This command creates (or refreshes) the website at [https://dcmi.github.io/ldci/](https://dcmi.github.io/ldci/).  
+    * The command must be run from the root directory of this repo.  
+    * Behind the scenes, `mkdocs gh-deploy` builds HTML docs from the Markdown sources, uses the `ghp-import` tool to commit them to the `gh-pages` branch, and pushes the `gh-pages` branch to GitHub.
 
