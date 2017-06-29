@@ -6,6 +6,7 @@ pages:
     - Style of the Index: 'style.md'
     - How to Contribute: 'process.md'
     - Editorial Board: 'board.md'
+    - FAQ: 'faq.md'
 theme: 'readthedocs'
 repo_url: https://github.com/dcmi/ldci
 repo_name: 'Github'
