@@ -1,10 +1,10 @@
 ### Help us maintain the index
 
-Technology continually evolves, and the index is a living document.  Do you see gaps in its coverage?  Proposing new competencies or benchmarks, updates, or even just changes of wording to the Competency Index Editorial Board is a fully guided process that begins with a [single mouse click](https://github.com/dcmi/ldci/edit/master/docs/index.md).
+Technology continually evolves, and the index is a living document.  Do you see gaps in its coverage?  Proposing new competencies or benchmarks, updates, or even just changes of wording to the Competency Index Editorial Board is a fully guided process that begins with a [single mouse click](https://github.com/dcmi/ldci/edit/master/docs/D2695955.md).
 
 Before making that mouse click, you must be logged into an account on [Github](https://github.com/), a superbly well-designed platform pioneered by developers of open-source software that increasingly is being used for collaboration on other types of project, such as this competency index.  [Joining Github](https://github.com/join) is free; you will be in excellent company.
 
-If you [log into Github](https://github.com/login) and navigate to the [Linked Data Competency Index](D2695955.md), you will see, in the upper right, a button labeled __Edit on Github__.  [Clicking this](https://github.com/dcmi/ldci/edit/master/docs/index.md) will present you with the option to "fork" the [LDCI Github repository](https://github.com/dcmi/ldci).  A copy of LDCI repository will be placed under your personal Github page and you will be placed directly into an editor where you can make changes to the competency index.
+If you [log into Github](https://github.com/login) and navigate to the [Linked Data Competency Index](D2695955.md), you will see, in the upper right, a button labeled __Edit on Github__.  [Clicking this](https://github.com/dcmi/ldci/edit/master/docs/D2695955.md) will present you with the option to "fork" the [LDCI Github repository](https://github.com/dcmi/ldci).  A copy of LDCI repository will be placed under your personal Github page and you will be placed directly into an editor where you can make changes to the competency index.
 
 Then type away! Add new competencies or tweak wordings.  Don't worry about the format; you are editing your own copy, so nothing will break.  When you are satisfied with your changes, give your suggestions a descriptive title, press the button to "commit" your changes.
 
