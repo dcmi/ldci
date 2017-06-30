@@ -6,8 +6,6 @@
 [Magnus Pfeffer](https://github.com/mapfde) <br>
 [Stuart Sutton](https://github.com/stuartasutton) <br>
 
-If you would like to join the Editorial Board, please write to [tom@tombaker.org](mailto:tom@tombaker.org).
-
 Links
 * [Issues](https://github.com/dcmi/ldci/issues)
 * [Pull requests](https://github.com/dcmi/ldci/pulls)
