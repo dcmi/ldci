@@ -10,5 +10,4 @@ Then type away! Add new competencies or tweak wordings.  Don't worry about the f
 
 If you merely want to raise issues related to the index, without proposing specific changes, you can do so by visiting the [issues page](https://github.com/dcmi/ldci/issues) and clicking on __New Issue__.  This is the best way to raise general issues about the index, such as an extension of scope, or to put forward ideas that are not yet fully formed.
 
-Members of the Editorial Board, who have write access to the LDCI repository, should propose changes by creating a new branch of the repository, editing there, and issuing a pull request from the branch.
-
+Members of the Editorial Board (and others with write access to the LDCI repository) should propose changes by creating a new branch of the repository, editing there, then [issuing a pull request from the branch](https://help.github.com/articles/creating-a-pull-request/).
