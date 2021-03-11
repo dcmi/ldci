@@ -1,0 +1,9 @@
+To do (as of 2017)
+- Change LDCI URIs into PURLs
+- Continue testing the Github-pull-request-driven process for updating the LDCI.  
+- Delete https://github.com/dcmi/ldci/blob/master/docs/D2695955.json - abandon this?
+- Use https://github.com/dcmi/ldci/blob/master/docs/D2695955.md   - henceforth use only this?
+- Reconsider use of ASN? http://www.achievementstandards.org/resources/ASNJurisdiction/DCMI - Achieve Standards Network jurisdiction DCMI
+- Scripts to generate PDFs of Competency Framework (including one without benchmarks?)
+- Simplify https://github.com/dcmi/ldci/tree/master/README.md if JSON henceforth irrelevant - edit /Users/tbaker/github/dcmi/ldci/README.md
+- Test communicating changes to maintainers of https://dcmi.github.io/ldci-zh/
